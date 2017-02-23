@@ -26,6 +26,8 @@ app.get('/testje', function(req, res){
 
 app.get('/recepten', recept.list);
 
+app.get('/recepten/:title', recept.single);
+
 app.get('/*', function(req,res){
     res.send('Sorry, de pagina ' + req.path + ' is niet beschikbaar');
 });
