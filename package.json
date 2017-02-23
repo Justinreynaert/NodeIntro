@@ -1,0 +1,17 @@
+{
+  "name": "intronode",
+  "version": "1.0.0",
+  "description": "introductie in NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "*",
+    "ejs-locals": "^1.0.2",
+    "express": "*",
+    "path": "^0.11.14"
+  }
+}
